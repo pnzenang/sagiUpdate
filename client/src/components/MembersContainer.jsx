@@ -3,7 +3,7 @@ import { ComplexPaginationContainer } from '../components';
 import { BsFillGridFill, BsList } from 'react-icons/bs';
 import Member from './Member';
 
-import PageBtnContainer from './PageBtnContainer';
+// import PageBtnContainer from './PageBtnContainer';
 import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
@@ -102,10 +102,11 @@ const MembersContainer = () => {
                               Association Code{' '}
                             </th>
                             <th className={TdStyle.ThStyle}> Matriculation </th>
-                            <th className={TdStyle.ThStyle}> First Names </th>
+
                             <th className={TdStyle.ThStyle}>
                               Last & Middle Names{' '}
                             </th>
+                            <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>
                               Registration Date{' '}
@@ -148,10 +149,11 @@ const MembersContainer = () => {
                                 <td className={TdStyle.TdStyle2}>
                                   {matriculationSituation}
                                 </td>
-                                <td className={TdStyle.TdStyle}>{firstName}</td>
+
                                 <td className={TdStyle.TdStyle2}>
                                   {lastAndMiddleNames}
                                 </td>
+                                <td className={TdStyle.TdStyle}>{firstName}</td>
                                 <td className={TdStyle.TdStyle}>{date2}</td>
                                 <td className={TdStyle.TdStyle}>{date}</td>
                                 <td className={TdStyle.TdStyle}>

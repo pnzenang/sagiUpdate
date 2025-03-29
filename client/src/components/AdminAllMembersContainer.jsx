@@ -84,10 +84,11 @@ const AdminAllMembersContainer = () => {
                               Association Code
                             </th>
                             <th className={TdStyle.ThStyle}> Matriculation </th>
-                            <th className={TdStyle.ThStyle}> First Names </th>
+
                             <th className={TdStyle.ThStyle}>
                               Last & Middle Names
                             </th>
+                            <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>
                               Registration Date
@@ -130,10 +131,11 @@ const AdminAllMembersContainer = () => {
                                 <td className={TdStyle.TdStyle2}>
                                   {matriculationSituation}
                                 </td>
-                                <td className={TdStyle.TdStyle}>{firstName}</td>
+
                                 <td className={TdStyle.TdStyle2}>
                                   {lastAndMiddleNames}
                                 </td>
+                                <td className={TdStyle.TdStyle}>{firstName}</td>
                                 <td className={TdStyle.TdStyle}>{date2}</td>
                                 <td className={TdStyle.TdStyle}>{date}</td>
                                 <td className={TdStyle.TdStyle}>
