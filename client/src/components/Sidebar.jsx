@@ -17,7 +17,7 @@ const Sidebar = () => {
         }
       >
         <div className='nav-header mx-4 '>
-          <div>
+          <div className=''>
             <Logo />
           </div>
           <button className='close-btn' id='cose-btn' onClick={toggleSidebar}>

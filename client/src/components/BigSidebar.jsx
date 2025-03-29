@@ -1,7 +1,7 @@
-import { styled } from "styled-components";
-import NavLinks2 from "./NavLinks2";
-import Logo from "./Logo";
-import { useDashboardContext } from "../pages/DashboardLayout";
+import { styled } from 'styled-components';
+import NavLinks2 from './NavLinks2';
+import Logo from './Logo';
+import { useDashboardContext } from '../pages/DashboardLayout';
 
 const BigSidebar = () => {
   const { showSidebar, toggleSidebar } = useDashboardContext();
@@ -9,11 +9,11 @@ const BigSidebar = () => {
     <Wrapper>
       <aside
         className={
-          showSidebar ? "sidebar-container show-sidebar" : "sidebar-container  "
+          showSidebar ? 'sidebar-container show-sidebar' : 'sidebar-container  '
         }
       >
-        <div className="content text-teal-500 bg-base-200 ">
-          <header className="logo flex  scale-100 items-center ">
+        <div className='content text-teal-500 bg-base-200 '>
+          <header className=' flex  scale-90 items-center justify-center'>
             <Logo />
           </header>
 

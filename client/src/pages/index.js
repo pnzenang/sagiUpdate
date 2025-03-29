@@ -1,4 +1,5 @@
 export { default as About } from './About';
+
 export { default as How } from './How';
 export { default as Necrology } from './Necrology';
 export { default as Error } from './Error';

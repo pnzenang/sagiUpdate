@@ -1,31 +1,31 @@
-import { FaAlignLeft } from "react-icons/fa6";
-import { styled } from "styled-components";
+import { FaAlignLeft } from 'react-icons/fa6';
+import { styled } from 'styled-components';
 
-import { useDashboardContext } from "../pages/DashboardLayout";
-import { Logo } from "../components";
-import LogoutContainer from "./LogoutContainer";
+import { useDashboardContext } from '../pages/DashboardLayout';
+import { Logo } from '../components';
+import LogoutContainer from './LogoutContainer';
 
 const Navigation = () => {
   const { toggleSidebar } = useDashboardContext();
   return (
-    <Wrapper className=" navbar bg-base-200 ">
-      <div className="nav-center h-20  ">
+    <Wrapper className=' navbar bg-base-200 '>
+      <div className='nav-center h-20  '>
         <button
-          type="button"
-          className="toggle-btn w-7 h-7 "
+          type='button'
+          className='toggle-btn w-7 h-7 '
           onClick={toggleSidebar}
         >
-          <FaAlignLeft className="text-primary" />
+          <FaAlignLeft className='text-primary' />
         </button>
-        <div>
-          <div className="logo">
+        <div className=''>
+          <div className=' logo'>
             <Logo />
           </div>
-          <h4 className="logo-text text-3xl text-cyan-600 capitalize">
+          <h4 className='logo-text text-3xl text-cyan-600 capitalize'>
             dashboard
           </h4>
         </div>
-        <div className="btn-container text-1xl">
+        <div className='btn-container text-1xl'>
           <LogoutContainer />
         </div>
       </div>

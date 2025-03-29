@@ -1,8 +1,10 @@
 import { styled } from 'styled-components';
-import main from '../assets/about.jpeg';
-import beautySagi from '../assets/images/beautySagi.jpg';
-import happySagi from '../assets/images/happySagi.jpg';
-import togetherSagi from '../assets/images/togetherSagi.jpg';
+// import main from '../assets/about.jpeg';
+// import beautySagi from '../assets/images/beautySagi.jpg';
+// import happySagi from '../assets/images/happySagi.jpg';
+// import togetherSagi from '../assets/images/togetherSagi.jpg';
+import { PiHandshakeDuotone } from 'react-icons/pi';
+import { TbUsersGroup } from 'react-icons/tb';
 
 const About = () => {
   return (
@@ -20,18 +22,20 @@ const About = () => {
               <div className='flex items-center -mx-3 sm:-mx-4 '>
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
                   <div className='py-3 sm:py-4'>
-                    <img
+                    <PiHandshakeDuotone className='w-52 h-52 text-primary' />
+                    {/* <img
                       src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713726733/respect_tqld6e.png'
                       alt='together'
                       className='w-full rounded-2xl'
-                    />
+                    /> */}
                   </div>
                   <div className='py-3 sm:py-4'>
-                    <img
+                    <TbUsersGroup className='w-52 h-52 text-primary' />
+                    {/* <img
                       src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713717234/team_1_agtn70.png'
                       alt='together'
                       className='w-full rounded-2xl'
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
@@ -41,7 +45,7 @@ const About = () => {
                       alt='likes'
                       className='w-full rounded-2xl'
                     />
-                    <span className='absolute -right-7 -bottom-7 z-[-1]'>
+                    {/* <span className='absolute -right-7 -bottom-7 z-[-1]'>
                       <svg
                         width={134}
                         height={106}
@@ -610,7 +614,7 @@ const About = () => {
                           fill='#3056D3'
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>

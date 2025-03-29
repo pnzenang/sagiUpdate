@@ -1,13 +1,13 @@
 import {
   Hero,
-  Statistics,
+  // Statistics,
   Partners,
   Mission,
   Testimonials2,
   HighLights,
 } from '../components';
-import Testimonials from '../components/Testimonials';
-import Home from './Home';
+// import Testimonials from '../components/Testimonials';
+// import Home from './Home';
 import ScrollToTop from 'react-scroll-to-top';
 import MonthlyContribution from '../components/MonthlyContribution';
 

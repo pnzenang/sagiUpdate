@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className=' align-element  navbar '>
         <div className='navbar-start'>
           {/* TITLE */}
-          <div className=' hidden lg:block scale-90'>
+          <div className=' hidden lg:block scale-90  flex-row '>
             <Logo />
           </div>
           <button className='nav-btn lg:hidden' onClick={toggleSidebar}>

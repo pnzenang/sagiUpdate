@@ -1,6 +1,7 @@
 import { MdOutlineGroups2 } from 'react-icons/md';
 import { PiUserFocusDuotone } from 'react-icons/pi';
 import working from '../assets/images/workingSagi.jpg';
+import together from '../assets/images/link.svg';
 const Membership = () => {
   return (
     <section className='overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-2 bg-base-100'>
@@ -8,9 +9,9 @@ const Membership = () => {
         <div className='flex flex-wrap items-center justify-between -mx-4'>
           <div className='w-full px-4 lg:w-6/12'>
             <div className='relative mb-12 lg:mb-0'>
-              <div className='mx-auto max-w-[430px] rounded-tl-[50px] sm:rounded-tl-[70px]'>
+              <div className='mx-auto max-w-[500px] rounded-tl-[50px] sm:rounded-tl-[70px]'>
                 <img
-                  src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1713228895/top-view-solidarity-concept_a7w4gw.jpg'
+                  src={together}
                   alt='about image'
                   className='w-full rounded-tl-[50px] sm:rounded-tl-[70px]'
                 />
