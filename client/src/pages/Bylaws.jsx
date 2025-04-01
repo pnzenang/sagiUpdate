@@ -1,4 +1,4 @@
-import pdf from '../documents/Internal-Rules.pdf';
+import pdf from '../documents/sagiRules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
@@ -552,6 +552,8 @@ const Bylaws = () => {
             <br /> <br />
             g. The death was announced to SAGI more than seven (7) days of the
             person passing.
+            <br /> <br />
+            h. The body was donated for research.
             <br /> <br />
             <span className='font-bold'>17.5. CONTRIBUTIONS MODE</span>
             <br />
