@@ -1,7 +1,7 @@
 import { Eye, EyeOff } from 'lucide-react';
 import { useState } from 'react';
 
-import { FormInput, FormInput2, SubmitBtn } from '../components';
+import { FormInput, SubmitBtn } from '../components';
 import { Form, redirect, Link } from 'react-router-dom';
 import Logo from '../components/Logo';
 import customFetch from '../utils/customFetch';
@@ -17,7 +17,6 @@ export const action = async ({ request }) => {
     return redirect('/dashboard');
   } catch (error) {
     toast.error(error?.response?.data?.msg);
-    console.log(error);
     return error;
   }
 };

@@ -1,6 +1,7 @@
 import { FiPhoneCall } from 'react-icons/fi';
 import { FaEnvelope, FaRegEnvelope } from 'react-icons/fa6';
 import { HiOutlineBuildingOffice2 } from 'react-icons/hi2';
+import { Seo } from '../components/SEO';
 
 const Contact = () => {
   return (
@@ -10,6 +11,10 @@ const Contact = () => {
           <div className='-mx-4 flex flex-wrap lg:justify-between'>
             <div className='w-full px-4 lg:w-1/2 xl:w-6/12'>
               <div className='my-12 max-w-[570px] lg:mb-0'>
+                <Seo
+                  title='SAGI'
+                  description='Helping people helping themselves'
+                />
                 <h2 className='mb-6 text-[32px] font-bold uppercase text-primary sm:text-[40px] lg:text-[36px] xl:text-[40px]'>
                   LET'S GET IN TOUCH
                 </h2>

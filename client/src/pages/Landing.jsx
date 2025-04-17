@@ -10,10 +10,12 @@ import {
 // import Home from './Home';
 import ScrollToTop from 'react-scroll-to-top';
 import MonthlyContribution from '../components/MonthlyContribution';
+import { Seo } from '../components/SEO';
 
 const Landing = () => {
   return (
     <section className='my-10 '>
+      <Seo title='SAGI' description='Helping people help themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <Hero />
       <MonthlyContribution />

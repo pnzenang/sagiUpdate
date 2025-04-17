@@ -1,9 +1,11 @@
+import { Seo } from '../components/SEO';
 import pdf from '../documents/sagiRules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
   return (
     <section className='  my-10 align-element'>
+      <Seo title='SAGI' description='Helping people helping themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div className='mb-12'>
         <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>

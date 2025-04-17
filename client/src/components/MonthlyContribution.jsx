@@ -19,11 +19,11 @@ const Stats2 = () => {
       <div className='mx-auto px-4 sm:container p-10'>
         <div className='mx-auto mb-[20px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-6xl '>
-            April 2025's Contributions.
+            April 2025&apos;s Contributions.
           </h2>
           <p className='text-base-content'>
-            Here, we have the detail on this month's contribution, you can also
-            download the contributions table.
+            Here, we have the detail on this month&apos;s contribution, you can
+            also download the contributions table.
           </p>
         </div>
         <div className='-mx-auto  w-full text-center pb-16  '>
@@ -32,7 +32,7 @@ const Stats2 = () => {
               href={pdf}
               className='btn inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-secondary'
             >
-              This Month's Contributions .
+              This Month&apos;s Contributions .
             </a>
           </div>
         </div>

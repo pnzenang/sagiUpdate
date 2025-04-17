@@ -5,12 +5,14 @@ import Registration from '../components/Registration';
 import ListUpdates from '../components/ListUpdates';
 import SagiPool from '../components/SagiPool';
 import Membership from '../components/Membership';
+import { Seo } from '../components/SEO';
 
 const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = useState(1);
   return (
     <>
       <div className='flex flex-wrap'>
+        <Seo title='SAGI' description='Helping people helping themselves' />
         <div className='align-element'>
           <ul
             className='flex mb-0 list-none flex-wrap pt-3 pb-4 gap-4 align-element'

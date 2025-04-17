@@ -39,10 +39,10 @@ const Hero12 = () => {
                   <span ref={typedJSRef} />
                 </h2>
                 <p className=' mt-2 max-w-xxl text-lg leading-8 text-base-content '>
-                  At SAGI, we mimic the african solidarity, making one family's
-                  problem the problem of the whole community by putting our
-                  effort together every time one of our member falls. It is the
-                  hallmark of the African solidarity.
+                  At SAGI, we mimic the african solidarity, making one
+                  family&apos;s problem the problem of the whole community by
+                  putting our effort together every time one of our member
+                  falls. It is the hallmark of the African solidarity.
                   <br />
                   SAGI membership give us a sense of protection and peace of
                   mind.

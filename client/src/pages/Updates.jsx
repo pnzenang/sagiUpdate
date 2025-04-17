@@ -5,11 +5,13 @@ import MonthlyContribution from '../components/MonthlyContribution';
 import FallenMembers from '../components/FallenMembers';
 import MonthAtGlance from '../components/MonthAtGlance';
 import VestedMembers from '../components/VestedMembers';
+import { Seo } from '../components/SEO';
 
 const Updates = () => {
   return (
     <Wrapper>
       <section className=' my-10  '>
+        <Seo title='SAGI' description='Helping people helping themselves' />
         <ScrollToTop smooth color='#0891b2' width='40' />
         <div>
           <div className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content '>

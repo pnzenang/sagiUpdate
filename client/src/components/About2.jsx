@@ -5,12 +5,14 @@ import {
   FaUnity,
 } from 'react-icons/fa6';
 import people from '../assets/images/world.svg';
+import { Seo } from './SEO';
 
 export default function About2() {
   return (
     <section className='overflow-hidden px-5 py-20 lg:pt-[120px] flex justify-center'>
       <div className='container '>
         <div className='mx-auto mb-20 w-full max-w-[620px] text-center'>
+          <Seo title='SAGI' description='Helping people helping themselves' />
           <h3 className='mb-3 text-5xl font-bold  sm:text-4xl md:text-7xl '>
             About Us
           </h3>
