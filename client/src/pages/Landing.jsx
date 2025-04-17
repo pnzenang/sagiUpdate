@@ -10,7 +10,8 @@ import {
 // import Home from './Home';
 import ScrollToTop from 'react-scroll-to-top';
 import MonthlyContribution from '../components/MonthlyContribution';
-import { Seo } from '../components/SEO';
+import { Seo } from '../components/Seo';
+Seo;
 
 const Landing = () => {
   return (

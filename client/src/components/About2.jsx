@@ -5,7 +5,7 @@ import {
   FaUnity,
 } from 'react-icons/fa6';
 import people from '../assets/images/world.svg';
-import { Seo } from './SEO';
+import { Seo } from './Seo';
 
 export default function About2() {
   return (

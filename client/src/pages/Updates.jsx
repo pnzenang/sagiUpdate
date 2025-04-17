@@ -5,7 +5,7 @@ import MonthlyContribution from '../components/MonthlyContribution';
 import FallenMembers from '../components/FallenMembers';
 import MonthAtGlance from '../components/MonthAtGlance';
 import VestedMembers from '../components/VestedMembers';
-import { Seo } from '../components/SEO';
+import { Seo } from '../components/Seo';
 
 const Updates = () => {
   return (

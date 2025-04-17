@@ -5,7 +5,7 @@ import Registration from '../components/Registration';
 import ListUpdates from '../components/ListUpdates';
 import SagiPool from '../components/SagiPool';
 import Membership from '../components/Membership';
-import { Seo } from '../components/SEO';
+import { Seo } from '../components/Seo';
 
 const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = useState(1);

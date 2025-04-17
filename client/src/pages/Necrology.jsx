@@ -7,6 +7,7 @@ import customFetch from '../utils/customFetch';
 import { useLoaderData } from 'react-router-dom';
 import { createContext, useContext } from 'react';
 import ScrollToTop from 'react-scroll-to-top';
+import { Seo } from '../components/Seo';
 
 export const loader = async ({ request }) => {
   const params = Object.fromEntries([
@@ -32,6 +33,7 @@ const Necrology = () => {
 
   return (
     <section className='my-10 align-element'>
+      <Seo title='SAGI' description='Helping people helping themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div>
         {/* <Seo title='SAGI' description='Helping people helping themselves' /> */}

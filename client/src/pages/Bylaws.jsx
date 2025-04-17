@@ -1,4 +1,4 @@
-import { Seo } from '../components/SEO';
+import { Seo } from '../components/Seo';
 import pdf from '../documents/sagiRules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
