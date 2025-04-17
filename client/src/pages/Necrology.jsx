@@ -33,9 +33,9 @@ const Necrology = () => {
 
   return (
     <section className='my-10 align-element'>
-      <Seo title='SAGI' description='Helping people helping themselves' />
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div>
+        <Seo title='SAGI' description='Helping people helping themselves' />
         <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>
           necrology
         </h1>
